@@ -1,0 +1,18 @@
+get:
+  tags:
+    - Hello World
+  summary: Obtener mensaje de saludo y estado del servicio
+  description: Devuelve un mensaje de "Hello World" validando que el servicio y la DB estén accesibles.
+  operationId: getHelloWorld
+  responses:
+    '200':
+      description: Mensaje recuperado exitosamente
+      content:
+        application/json:
+          schema:
+            $ref: "../components/schemas/hello-world-response.yaml"
+          examples:
+            success:
+              summary: Respuesta exitosa
+              value:
+                $ref: "../examples/hello-world-response.json"
