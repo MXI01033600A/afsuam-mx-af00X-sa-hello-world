@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>com.mx.sura_afore.af00X</groupId>
-    <artifactId>afsuam-mx-af00X-safre-sa-hello-world</artifactId>
+    <artifactId>afsuam-mx-af00X-sa-safre-hello-world</artifactId>
     <version>1.0.0</version>
-    <name>afsuam-mx-af00X-safre-sa-hello-world</name>
+    <name>afsuam-mx-af00X-sa-safre-hello-world</name>
     <description>System API de Hello World basado en los estándares Radon y Diamante</description>
 
     <properties>
@@ -117,7 +117,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <inputSpec>${project.basedir}/src/main/resources/afsuam-mx-af00X-sa-hello-world/v1-hello-world.yaml</inputSpec>
+                            <inputSpec>${project.basedir}/src/main/resources/afsuam-mx-af00X-sa-safre-hello-world/afsuam_mx_af00X_sa_safre_hello_world.yml</inputSpec>
                             <generatorName>spring</generatorName>
                             <generateSupportingFiles>true</generateSupportingFiles>
                             <strictSpec>true</strictSpec>
