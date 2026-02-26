@@ -23,7 +23,7 @@ public class HelloWorldService {
         }
 
         HelloWorldResponseData data = new HelloWorldResponseData();
-        data.setMessage("Hello World from afsuam-mx-af00X-sa-hello-world API! (table count: " + count + ")");
+        data.setMessage("Hello World from afsuam-mx-af00X-sa-safre-hello-world API! (table count: " + count + ")");
         data.setStatus(status);
 
         HelloWorldResponse response = new HelloWorldResponse();

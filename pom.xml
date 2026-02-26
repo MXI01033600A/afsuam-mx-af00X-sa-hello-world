@@ -117,7 +117,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <inputSpec>${project.basedir}/src/main/resources/afsuam-mx-af00X-sa-safre-hello-world/afsuam_mx_af00X_sa_safre_hello_world.yml</inputSpec>
+                            <inputSpec>${project.basedir}/src/main/resources/afsuam-mx-af00X-sa-safre-hello-world/afsuam-mx-af00X-sa-safre-hello-world.yml</inputSpec>
                             <generatorName>spring</generatorName>
                             <generateSupportingFiles>true</generateSupportingFiles>
                             <strictSpec>true</strictSpec>
